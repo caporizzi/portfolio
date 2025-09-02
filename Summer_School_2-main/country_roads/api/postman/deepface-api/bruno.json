@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "deepface-api",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

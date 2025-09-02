@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OJP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.siri.org.uk/siri" version="1.0" xmlns:ojp="http://www.vdv.de/ojp" xsi:schemaLocation="http://www.siri.org.uk/siri ../ojp-xsd-v1.0/OJP.xsd">
+    <OJPRequest>
+        <ServiceRequest>
+            <RequestTimestamp>2024-08-29T11:54:53.470Z</RequestTimestamp>
+            <RequestorRef>API-Explorer</RequestorRef>
+            <ojp:OJPTripRequest>
+                <RequestTimestamp>2024-08-29T11:54:53.470Z</RequestTimestamp>
+                <ojp:Origin>
+                    <ojp:PlaceRef>
+                        <ojp:GeoPosition>
+                            <Longitude>7.073480</Longitude>
+                            <Latitude>46.101710</Latitude>
+                        </ojp:GeoPosition>
+                        <ojp:LocationName>
+                            <ojp:Text>Martigny</ojp:Text>
+                        </ojp:LocationName>
+                    </ojp:PlaceRef>
+                    <ojp:DepArrTime>2024-08-29T13:47:03</ojp:DepArrTime>
+                </ojp:Origin>
+                <ojp:Destination>
+                    <ojp:PlaceRef>
+                        <ojp:GeoPosition>
+                            <Longitude>7.358480</Longitude>
+                            <Latitude>46.232410</Latitude>
+                        </ojp:GeoPosition>
+                        <ojp:LocationName>
+                            <obj:Text>Sion</obj:Text>
+                        </ojp:LocationName>
+                    </ojp:PlaceRef>
+                </ojp:Destination>
+                <ojp:Params>
+                    <ojp:IncludeTrackSections></ojp:IncludeTrackSections>
+                    <ojp:IncludeTurnDescription></ojp:IncludeTurnDescription>
+                    <ojp:IncludeIntermediateStops></ojp:IncludeIntermediateStops>
+                </ojp:Params>
+            </ojp:OJPTripRequest>
+        </ServiceRequest>
+    </OJPRequest>
+</OJP>

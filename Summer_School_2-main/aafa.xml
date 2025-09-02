@@ -1,0 +1,27 @@
+XmlElement (<ojp:TripLeg>
+    <ojp:LegId>1</ojp:LegId>
+    <ojp:ContinuousLeg>
+        <ojp:LegStart>
+            <ojp:GeoPosition>
+                <siri:Longitude>7.35848</siri:Longitude>
+                <siri:Latitude>46.23241</siri:Latitude>
+            </ojp:GeoPosition>
+            <ojp:LocationName>
+                <ojp:Text xml:lang="de">Sion (CH), start</ojp:Text>
+            </ojp:LocationName>
+        </ojp:LegStart>
+        <ojp:LegEnd>
+            <siri:StopPointRef>ch:1:sloid:1506:2:3</siri:StopPointRef>
+            <ojp:LocationName>
+                <ojp:Text xml:lang="de">Sion</ojp:Text>
+            </ojp:LocationName>
+        </ojp:LegEnd>
+        <ojp:Service>
+            <ojp:IndividualMode>walk</ojp:IndividualMode>
+        </ojp:Service>
+        <ojp:TimeWindowStart>2024-08-30T12:50:18Z</ojp:TimeWindowStart>
+        <ojp:TimeWindowEnd>2024-08-30T13:03:18Z</ojp:TimeWindowEnd>
+        <ojp:Duration>PT13M</ojp:Duration>
+        <ojp:Length>904</ojp:Length>
+    </ojp:ContinuousLeg>
+</ojp:TripLeg>)

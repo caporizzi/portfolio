@@ -1,0 +1,163 @@
+#set page(margin: (
+  top: 1cm,
+  bottom: 1cm,
+))
+
+
+#align(center, [
+  = User Manual 
+])
+\
+This guide will take you through all the page of our application and explain how to use it.
+\
+\
+
+#align(center, [
+  = Welcome page
+])
+
+\
+ #grid( columns: (28%,40%), gutter: 15%, 
+    figure(
+      image("1.png")
+    ), 
+   [
+      This is the page your app will open on. From here, two options open to you. The first is the " Go to login!" button, allowing you to acces the login page, and the second is the "Get your itinerary!" button, allowing you to access the face scan page. 
+   ]
+) 
+
+\
+
+#align(left, [
+  = Login 
+])
+\
+ #grid( columns: (40%,28%), gutter: 15%, 
+   [
+      The login page allows you to login with your email and password or, if you do not have an account already, to create one through the "Create an account" link.
+   ],
+    figure(
+      image("2.png")
+    ) 
+) 
+
+
+
+
+#align(center, [
+  = Register 
+])
+
+\
+ #grid( columns: (30%,41%), gutter: 15%, 
+    figure(
+      image("3.png")
+    ), 
+   [
+      This page allows you to create your account and all fields are required. Some fields demand correct input, such as email, password and city.
+      A picture is also required for the account to be created.
+      On successful creation, you will be taken to the user information page.
+   ]
+) 
+
+\
+
+#align(left, [
+  = User Info Page
+])
+\
+ #grid( columns: (40%,30%), gutter: 15%, 
+   [
+      This page allows you to see your current informations, as well as to change them should you want/need to. To do so, simply tap on the pen on the side of the field you wish to change.
+      You may also change the picture through the "Change picture" button.
+    On the top right of the screen, you will find a question mark leading you to the about page, as well as the deconnect button leading you back to the welcome screen. Please note that the application will not keep you connected should you close it.
+    
+    If your account is flagged as an admin, an "Admin panel" button will appear at the bottom of the page. It will allow you to acces the admin page.
+   ],
+    figure(
+      image("4.png")
+    ) 
+) 
+
+\
+\
+
+
+#align(center, [
+  == About page
+])
+
+\
+ #grid( columns: (33%,40%), gutter: 15%, 
+    figure(
+      image("about.png")
+    ), 
+   [
+      This page contains informations about the developers and the app.
+   ]
+) 
+
+\
+
+#align(left, [
+    == Admin page
+])
+\
+ #grid( columns: (40%,33%), gutter: 15%, 
+   [
+        The admin page allows you to see all existing users of the app.
+   ],
+    figure(
+      image("admin.png")
+    ) 
+) 
+
+
+\
+\
+\
+
+
+#align(center, [
+  = Face Scan 
+])
+
+\
+ #grid( columns: (30%,40%), gutter: 15%, 
+    figure(
+      image("5.png")
+    ), 
+   [
+  This page is the one allowing you acces to your itinerary. There is two options to do so.
+  
+  Firstly, you may use the blue button at the bottom of the page to take a picture of yourself. Should the system recognize you, you will be taken to the itinerary page.
+  
+  Otherwise, you may tap the live button on the top right corner of the screen. This will remove the picture button and allow for realtime recognition of the user. In this mode, you will be taken to the itinerary page as soon as you are recognized.
+  
+  In both case, you need to be alone on the picture, or an error message will appear.
+  Should you be unrecognized, a message will indicate so in both modes.
+   ]
+) 
+
+\
+
+#align(left, [
+  = Itinerary
+])
+\
+ #grid( columns: (40%,30%), gutter: 15%, 
+   [
+  This page is dedicated to the travel infos you will need to get back to your registered home.
+  
+  On top of the page, you will see a message welcoming you, and underneath it a weather indication.
+  
+  This indication is the realtime weather at your destination at the time of your itinerary page opening.
+  
+  Under this, you will see cards containing differents trips options. These trip go from your current location to your registered home, and will indicate every step of the journey to get there.
+  
+  The first and last legs are always the time it take to get to and fro the station of the preceding/following leg.
+   ],
+    figure(
+      image("admin.png")
+    ) 
+) 

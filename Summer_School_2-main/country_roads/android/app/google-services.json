@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "841627091156",
+    "project_id": "task-manager-app-a59bf",
+    "storage_bucket": "task-manager-app-a59bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841627091156:android:2596dd219ec7e0c67a7b41",
+        "android_client_info": {
+          "package_name": "com.published.country_roads"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkx2vmSrfkAU-Mu3nT6XVb-mJyPtSo4Vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
