@@ -1,0 +1,61 @@
+site_name: Marco's Portfolio
+site_url: https://caporizzi.github.io/portfolio/
+repo_url: https://github.com/caporizzi/portfolio
+repo_name: caporizzi/portfolio
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+
+nav:
+  - Journal:
+      - Vue d’ensemble: journal/index.md
+      - Semaine 1: journal/semaine-1.md
+      - Semaine 2: journal/semaine-2.md
+      - Semaine 3: journal/semaine-3.md
+
+  - Compétences:
+      - Vue d’ensemble: competences/index.md
+
+      - CS Engineer:
+          - Analyser un problème complexe: competences/cs/analyser.md
+          - Concevoir une solution théorique: competences/cs/concevoir.md
+          - Implémenter une approche: competences/cs/implementer.md
+          - Évaluer un système informatique: competences/cs/evaluer.md
+
+      - Data Engineer:
+          - Préparer et analyser des données: competences/data/preparer.md
+          - Orchestrer un pipeline de données: competences/data/pipeline.md
+          - Appliquer l’ingénierie informatique aux données: competences/data/appliquer.md
+
+      - Professionalism:
+          - Communiquer clairement: competences/professionalism/communiquer.md
+          - Adopter une posture professionnelle: competences/professionalism/posture.md
+          - Argumenter ses choix: competences/professionalism/argumenter.md
+          - Auto-réflexivité: competences/professionalism/reflexivite.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
