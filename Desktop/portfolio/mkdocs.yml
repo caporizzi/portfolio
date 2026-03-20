@@ -30,7 +30,7 @@ nav:
       - Vue d’ensemble: competences/index.md
 
       - CS Engineer:
-          - Analyser un problème complexe: competences/cs/analyser.md
+          - Analyser un problème complexe: competences/cs/analyse.md
           - Concevoir une solution théorique: competences/cs/concevoir.md
           - Implémenter une approche: competences/cs/implementer.md
           - Évaluer un système informatique: competences/cs/evaluer.md
