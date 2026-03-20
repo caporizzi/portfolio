@@ -1,32 +1,12 @@
-# Analyser
+???+ note "recherche sur la génération de texture" 
 
-Voici quelques compétences liées à l’analyse en informatique.
+    Situation: Je me trouve face à un problème que je n'ai jamais résolu.
 
-???+ note "Analyse algorithmique"
-    Je sais étudier la complexité d’un algorithme, comparer plusieurs approches
-    et justifier un choix selon les performances attendues.
+    Action: Je mène l'enquête sur ce qui ce fait de mieux dans le monde de la génération de texture. 
+    J'étudie les approches existantes, j'identifie les enjeux et structure mon analyse dans 2 rapports différents. 
 
-    Liens utiles :
-    
-    - [Complexité algorithmique](https://fr.wikipedia.org/wiki/Complexit%C3%A9_algorithmique)
-    - [Notation Big-O](https://fr.wikipedia.org/wiki/Grand_O)
-    - [Asymptotic analysis](https://en.wikipedia.org/wiki/Asymptotic_analysis)
+    Résultats: Cette démarche me permet d'avoir une vue d'ensemble sur les différences entre les méthodes, leur cas d'usage et leur défi propre.
 
-??? note "Analyse de données"
-    Je sais explorer, nettoyer et interpréter des données afin d’en extraire
-    des informations pertinentes.
+    [Rapport de recherche text2texture](https://github.com/caporizzi/portfolio/blob/main/Desktop/portfolio/papers/t2t_paper.pdf)
 
-    Liens utiles :
-
-    - [Data analysis](https://en.wikipedia.org/wiki/Data_analysis)
-    - [Pandas](https://pandas.pydata.org/)
-    - [Polars](https://pola.rs/)
-
-??? note "Analyse système"
-    Je peux comprendre l’architecture d’un système, identifier les composants
-    critiques et analyser les interactions entre services.
-
-    Liens utiles :
-
-    - [Distributed computing](https://en.wikipedia.org/wiki/Distributed_computing)
-    - [Microservices](https://en.wikipedia.org/wiki/Microservices)
+    [Rapport de recher image2texture](https://github.com/caporizzi/portfolio/blob/main/Desktop/portfolio/papers/i2t_paper.pdf)
