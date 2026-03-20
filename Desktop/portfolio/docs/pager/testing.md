@@ -93,7 +93,11 @@ Résultat: Compte rendu clair et exploitable.
 
 ### [Adopter une posture professionnelle]
 
-//
+Situation: Intégration dans une équipe avec laquelle je n’avais jamais collaboré.
+
+Action: Adaptation aux méthodes de travail, communication proactive et prise en compte des retours.
+
+Résultat: Collaboration efficace et intégration réussie dans l’équipe.
 
 ### [Argumenter ses opinions et ses choix]
 
