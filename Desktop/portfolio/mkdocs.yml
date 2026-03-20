@@ -51,6 +51,10 @@ nav:
       - Semaine 1: questions/semaine-1.md
       - Semaine 2: questions/semaine-2.md
       - Semaine 3: questions/semaine-3.md
+
+  - One Pager:
+      - Vue d’ensemble: one-pager/testing.md
+
 extra_css:
   - stylesheets/extra.css
 

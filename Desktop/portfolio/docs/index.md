@@ -10,3 +10,4 @@ Le projet explore différentes méthodes de génération, ainsi que la mise en p
 
 - [Compétences](competences/index.md)
 - [Questions](questions/index.md)
+- [One Pager](pager/testing.md)
