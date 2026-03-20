@@ -2,7 +2,7 @@
 
 ## Computer Science Engineering
 
-### [Analyser un problème](cs/analyser.md)
+### [Analyser un problème](cs/analyse.md)
 
 ### [Concevoir une solution théorique modélisée](cs/concevoir.md)
 
