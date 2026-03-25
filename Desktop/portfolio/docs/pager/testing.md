@@ -99,6 +99,14 @@ Action: Adaptation aux méthodes de travail, communication proactive et prise en
 
 Résultat: Collaboration efficace et intégration réussie dans l’équipe.
 
+
+
+Résultat: Preuve de leadership lors du meeting du 25.03.2026 en tant que Scrum Master.
+Comment: Mise en évidence des points critiques telle que l'intégration, prise de décision et allocation des personnes
+[Daily Meeting 25032026](https://toys-r-us-rex.github.io/Duckify/meetings/daily/2026-03-25.pdf)
+
+
+
 ### [Argumenter ses opinions et ses choix]
 
 Situation: Choix entre les approches text2texture et image2texture.
