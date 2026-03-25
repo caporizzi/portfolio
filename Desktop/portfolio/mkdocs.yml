@@ -26,34 +26,31 @@ theme:
     - navigation.top
 
 nav:
-  - Compétences:
-      - Vue d’ensemble: competences/index.md
+  #- #Compétences:
+      #- Vue d’ensemble: competences/index.md
 
-      - CS Engineer:
-          - Analyser un problème complexe: competences/cs/analyse.md
-          - Concevoir une solution théorique: competences/cs/concevoir.md
-          - Implémenter une approche: competences/cs/implementer.md
-          - Évaluer un système informatique: competences/cs/evaluer.md
+      #- CS Engineer:
+      #    - Analyser un problème complexe: competences/cs/analyse.md
+      #    - Concevoir une solution théorique: competences/cs/concevoir.md
+      #    - Implémenter une approche: competences/cs/implementer.md
+      #    - Évaluer un système informatique: competences/cs/evaluer.md
 
-      - Data Engineer:
-          - Préparer et analyser des données: competences/data/preparer.md
-          - Orchestrer un pipeline de données: competences/data/pipeline.md
-          - Appliquer l’ingénierie informatique aux données: competences/data/appliquer.md
+      #- Data Engineer:
+      #    - Préparer et analyser des données: competences/data/preparer.md
+      #    - Orchestrer un pipeline de données: competences/data/pipeline.md
+      #    - Appliquer l’ingénierie informatique aux données: competences/data/appliquer.md
 
-      - Professionalism:
-          - Communiquer clairement: competences/professionalism/communiquer.md
-          - Adopter une posture professionnelle: competences/professionalism/posture.md
-          - Argumenter ses choix: competences/professionalism/argumenter.md
-          - Auto-réflexivité: competences/professionalism/reflexivite.md
-
-  - Questions:
-      - Vue d’ensemble: questions/index.md
-      - Semaine 1: questions/semaine-1.md
-      - Semaine 2: questions/semaine-2.md
-      - Semaine 3: questions/semaine-3.md
-
+      #- Professionalism:
+      #    - Communiquer clairement: competences/professionalism/communiquer.md
+      #    - Adopter une posture professionnelle: competences/professionalism/posture.md
+      #    - Argumenter ses choix: competences/professionalism/argumenter.md
+      #    - Auto-réflexivité: competences/professionalism/reflexivite.md
   - One Pager:
       - Vue d’ensemble: pager/testing.md
+      
+  - Questions:
+      - Vue d’ensemble: questions/index.md
+
 
 extra_css:
   - stylesheets/extra.css
