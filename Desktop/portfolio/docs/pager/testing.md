@@ -4,7 +4,7 @@
 
 ### Analyser un problème
 
-J’ai analysé les approches de génération de textures 3D à partir de modèles génératifs (text2texture vs image2texture) afin d’identifier leurs limites en termes de cohérence visuelle, contrôlabilité et adaptabilité au pipeline de production → [Rapport text2texture](https://toys-r-us-rex.github.io/Duckify/genai/t2t_recherche.pdf) et [Rapport image2texture](https://toys-r-us-rex.github.io/Duckify/genai/i2t_recherche.pdf)
+J’ai analysé les approches de génération de textures 3D → [Rapport text2texture](https://toys-r-us-rex.github.io/Duckify/genai/t2t_recherche.pdf) et [Rapport image2texture](https://toys-r-us-rex.github.io/Duckify/genai/i2t_recherche.pdf)
 
 J’ai analysé les contraintes liées à l’utilisation de modèles de diffusion (coût GPU), impactant directement la scalabilité du système → [Rapport analyse](https://toys-r-us-rex.github.io/Duckify/genai/computation.pdf)
 
@@ -26,15 +26,9 @@ J'ai implementé un modèle de diffusion on premise pour tester les limites de i
 
 ### Evaluer un système informatique
 
-Situation: Difficulté à évaluer objectivement les générations.
-
-Action: Mise en place d’une évaluation humaine (qualité, contraintes, dessinabilité) et automatisée (similarité, esthétisme, validation).
-
-Résultat: Plus de 200 générations évaluées de manière structurée.
-
-[Vue d'ensemble](https://hessoit-my.sharepoint.com/:x:/g/personal/marco_caporizz_hes-so_ch/IQAMxPcL6RZaS6prJS5g077yASUoKq_Tkrwxr3mG06NbAR0?e=TwsbaX)
-
 J’ai évalué plus de 200 générations afin d’identifier les paramètres optimaux et les limites du modèle 
+
+J'ai évalué les générations de canard avec mon benchmark de manière automatisé [Excel Export](https://hessoit-my.sharepoint.com/:x:/g/personal/marco_caporizz_hes-so_ch/IQDWPEmH0yzCQI3Da44FXxuGAYJ4Un1OGiUJSheHkWJhVRk?e=k7HpTb&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0) 
 
 ## Data Engineering
 
@@ -42,25 +36,9 @@ J’ai évalué plus de 200 générations afin d’identifier les paramètres op
 
 J'ai valorisé mes données de canard en visualisant le résultat du mesh texturé sous plusieurs vues en vue de l'évaluation automatisée [Fonction Render](https://github.com/Toys-R-Us-Rex/MV-Adapter/blob/main/scripts/benchmark/render_rw.py)
 
-J'ai valorisé mes données de canard en créant un leaderboard de beauté basé sur les évaluations du benchmark [Fonction Rw](https://github.com/Toys-R-Us-Rex/MV-Adapter/blob/main/scripts/benchmark/rank_rw.py)
+J'ai valorisé mes données de canard en créant un leaderboard de beauté basé sur les évaluations du benchmark [Fonction Ranking](https://github.com/Toys-R-Us-Rex/MV-Adapter/blob/main/scripts/benchmark/rank_rw.py)
 
 ### Orchestrer un processus et une infrastructure de traitement de données
-
-Situation: Limitation GPU (<16GB VRAM) pour les modèles de diffusion.
-
-Action: Analyse des solutions, demande validée pour une infrastructure plus performante.
-
-Résultat: Accès à des ressources adaptées et amélioration des performances.
-
-[Infrastructure](https://github.com/caporizzi/portfolio/blob/main/Desktop/portfolio/papers/Calcul_AWS.pdf)
-
-Situation: Besoin de standardiser la génération à grande échelle.
-
-Action: Calibration des hyperparamètres et évaluation de leur impact.
-
-Résultat: Identification des paramètres optimaux.
-
-[Phase de calibrage](https://docs.google.com/spreadsheets/d/1YWFxIgh-5cxQ3ukn9E-Lol9VvpamSTk78wUWdIhKVwA/edit?usp=sharing)
 
 ### Appliquer les compétences de l’ingénierie en informatique au domaine des données
 
@@ -95,4 +73,6 @@ J'ai communiqué mes choix pour l'intégration du benchmark ( scripts ) et aidé
 
 ### [Critiquer une production de manière auto-réflexive]
 
-J'ai su recevoir une critique et j'ai jugé ma visualisation peu structuré pour une exploitation à grande echelle: j'adapte la visualisation des générations de canard [viz](https://toys-r-us-rex.github.io/Duckify/genai/historique_visualisation.pdf)
+J'ai su recevoir une critique et j'ai jugé ma visualisation peu structuré pour une exploitation à grande echelle donc j'adapte la visualisation des générations de canard [viz](https://toys-r-us-rex.github.io/Duckify/genai/historique_visualisation.pdf)
+
+J'ai critiqué ma propre production de prompt que j'ai jugé insuffisante et j'ai fait venir une personne d'un groupe externe pour faire du prompt engineering [rapport de l'externe](https://toys-r-us-rex.github.io/Duckify/genai/prompt_generation_analysis.pdf)
