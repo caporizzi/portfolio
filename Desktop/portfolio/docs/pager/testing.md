@@ -18,7 +18,7 @@ J'ai conçu une méthode de génération de textures basée sur image2texture [R
 
 ### Implémenter une approche théorique modélisée
 
-J'ai implémenté le benchmark automatisé pour l'évaluation de canard [Benchmark Live](https://github.com/Toys-R-Us-Rex/Duckify/pull/115)
+J'ai implémenté le benchmark automatisé pour l'évaluation de canard [Benchmark Live](https://github.com/Toys-R-Us-Rex/Duckify/pull/115) + [Nima](https://github.com/Toys-R-Us-Rex/MV-Adapter/blob/main/scripts/benchmark/nima_rw.py) + [Openclip](https://github.com/Toys-R-Us-Rex/MV-Adapter/blob/main/scripts/benchmark/openclip_rw.py)
 
 J'ai implementé la génération des images multiview en vue d'un finetuning [bpy-renderer](https://github.com/Toys-R-Us-Rex/bpy-renderer/commits/0b83566dd2cec7cf08f5cd206df7b2f3fd8abeb7/)
 
@@ -28,7 +28,7 @@ J'ai implementé un modèle de diffusion on premise pour tester les limites de i
 
 ### Evaluer un système informatique
 
-J'ai évalué les générations de canard avec mon benchmark de manière automatisé [Excel Export](https://hessoit-my.sharepoint.com/:x:/g/personal/marco_caporizz_hes-so_ch/IQDWPEmH0yzCQI3Da44FXxuGAYJ4Un1OGiUJSheHkWJhVRk?e=k7HpTb&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0) 
+J'ai évalué les générations de canard avec mon benchmark de manière automatisé [Excel Export](https://hessoit-my.sharepoint.com/:x:/g/personal/marco_caporizz_hes-so_ch/IQDWPEmH0yzCQI3Da44FXxuGAYJ4Un1OGiUJSheHkWJhVRk?e=k7HpTb&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0) [pic](https://github.com/caporizzi/portfolio/blob/main/Desktop/portfolio/canard.JPG)
 
 ## Data Engineering
 
