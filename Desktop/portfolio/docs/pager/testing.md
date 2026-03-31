@@ -4,15 +4,17 @@
 
 ### Analyser un problème
 
-J’ai analysé les approches de génération de textures 3D → [Rapport text2texture](https://toys-r-us-rex.github.io/Duckify/genai/t2t_recherche.pdf) et [Rapport image2texture](https://toys-r-us-rex.github.io/Duckify/genai/i2t_recherche.pdf)
+J’ai analysé les approches de génération de textures 3D [Rapport text2texture](https://toys-r-us-rex.github.io/Duckify/genai/t2t_recherche.pdf) et [Rapport image2texture](https://toys-r-us-rex.github.io/Duckify/genai/i2t_recherche.pdf)
 
-J’ai analysé les contraintes liées à l’utilisation de modèles de diffusion (coût GPU), impactant directement la scalabilité du système → [Rapport analyse](https://toys-r-us-rex.github.io/Duckify/genai/computation.pdf)
+J’ai analysé les contraintes liées à l’utilisation de modèles de diffusion qui impacte la scalabilité du système [Rapport analyse](https://toys-r-us-rex.github.io/Duckify/genai/computation.pdf)
 
-J'ai analysé les limites de la méthode image2texture →  [Rapport Analyse](https://toys-r-us-rex.github.io/Duckify/genai/i2t_review.pdf)
+J'ai analysé les limites de la méthode image2texture  [Rapport Analyse](https://toys-r-us-rex.github.io/Duckify/genai/i2t_review.pdf)
+
+J'ai analysé les limites du ré-entraînement de notre modèle pré-entraîné [Rapport Analyse](https://toys-r-us-rex.github.io/Duckify/genai/genai_finetune.pdf)
 
 ### Concevoir une solution théorique modélisée
 
-J'ai conçu une méthode de génération de textures basée sur image2texture [Rapport image2texture](https://github.com/caporizzi/portfolio/blob/main/Desktop/portfolio/papers/GenAI%20-%20paper.pdf)
+J'ai conçu une méthode de génération de textures basée sur image2texture [Rapport image2texture](https://toys-r-us-rex.github.io/Duckify/genai/i2t_review.pdf)
 
 ### Implémenter une approche théorique modélisée
 
@@ -26,8 +28,6 @@ J'ai implementé un modèle de diffusion on premise pour tester les limites de i
 
 ### Evaluer un système informatique
 
-J’ai évalué plus de 200 générations afin d’identifier les paramètres optimaux et les limites du modèle 
-
 J'ai évalué les générations de canard avec mon benchmark de manière automatisé [Excel Export](https://hessoit-my.sharepoint.com/:x:/g/personal/marco_caporizz_hes-so_ch/IQDWPEmH0yzCQI3Da44FXxuGAYJ4Un1OGiUJSheHkWJhVRk?e=k7HpTb&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0) 
 
 ## Data Engineering
@@ -40,6 +40,7 @@ J'ai valorisé mes données de canard en créant un leaderboard de beauté basé
 
 ### Orchestrer un processus et une infrastructure de traitement de données
 
+J'ai crée un processus de génération, traitement, évaluation et export de donnée [Pipeline](https://toys-r-us-rex.github.io/Duckify/genai/process.pdf)
 ### Appliquer les compétences de l’ingénierie en informatique au domaine des données
 
 J'ai généré des scripts SLURM afin de générer des textures pendant la nuit [Script SLURM basique](https://github.com/Toys-R-Us-Rex/Duckify/blob/main/genai/run.slurm) 
@@ -63,6 +64,8 @@ J'ai montré du leadership lors du meeting du 25.03.2026 en tant que Scrum Maste
 
 J'ai pris l'initiative de coordoner ce qui allait être montrer au client lors de la présentation en collaborant avec les équipes robot et tracing [Collaboration prés client](https://toys-r-us-rex.github.io/Duckify/planning/demonstration_ceo.pdf)
 
+J'ai organisé un meeting extraordinaire afin d'allouer des forces de travail en plus pour l'équipe robot[Meeting](https://toys-r-us-rex.github.io/Duckify/meetings/daily/2026-03-26.pdf) 
+
 J'ai review des PR afin de faire avancer le projet [PR12](https://github.com/Toys-R-Us-Rex/Duckify/pull/12), [PR48](https://github.com/Toys-R-Us-Rex/Duckify/pull/48), [PR57](https://github.com/Toys-R-Us-Rex/Duckify/pull/57), [PR64](https://github.com/Toys-R-Us-Rex/Duckify/pull/64), [PR91](https://github.com/Toys-R-Us-Rex/Duckify/pull/91), [PR109](https://github.com/Toys-R-Us-Rex/Duckify/pull/115),[PR115](https://github.com/Toys-R-Us-Rex/Duckify/pull/115)
 
 ### Argumenter ses opinions et ses choix
@@ -75,4 +78,4 @@ J'ai communiqué mes choix pour l'intégration du benchmark ( scripts ) et aidé
 
 J'ai su recevoir une critique et j'ai jugé ma visualisation peu structuré pour une exploitation à grande echelle donc j'adapte la visualisation des générations de canard [viz](https://toys-r-us-rex.github.io/Duckify/genai/historique_visualisation.pdf)
 
-J'ai critiqué ma propre production de prompt que j'ai jugé insuffisante et j'ai fait venir une personne d'un groupe externe pour faire du prompt engineering [rapport de l'externe](https://toys-r-us-rex.github.io/Duckify/genai/prompt_generation_analysis.pdf)
+J'ai critiqué ma propre production de prompt que j'ai jugé insuffisante et j'ai fait venir une personne d'un groupe externe pour faire du prompt engineering [rapport de l'externe](https://toys-r-us-rex.github.io/Duckify/genai/prompt_generation_analysis.pdf) 
