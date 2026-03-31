@@ -43,7 +43,7 @@ J'ai valorisé mes données de canard en créant un leaderboard de beauté basé
 J'ai crée un processus de génération, traitement, évaluation et export de donnée [Pipeline](https://toys-r-us-rex.github.io/Duckify/genai/process.pdf)
 ### Appliquer les compétences de l’ingénierie en informatique au domaine des données
 
-J'ai généré des scripts SLURM afin de générer des textures pendant la nuit [Script SLURM basique](https://github.com/Toys-R-Us-Rex/Duckify/blob/main/genai/run.slurm) 
+J'ai généré des scripts SLURM afin de générer des textures pendant la nuit [Script SLURM basique](https://github.com/Toys-R-Us-Rex/Duckify/blob/main/genai/run.slurm) et les [canards](https://hessoit-my.sharepoint.com/:x:/g/personal/marco_caporizz_hes-so_ch/IQAMxPcL6RZaS6prJS5g077yASUoKq_Tkrwxr3mG06NbAR0?e=TwsbaX)
 
 
 ## Professionalism
@@ -74,7 +74,7 @@ J'ai argumenté l'adoption de la méthode image2texture et le rejet de text2text
 
 J'ai communiqué mes choix pour l'intégration du benchmark ( scripts ) et aidé mon camarade qui a intégré dans la pipeline [Benchmark Live](https://github.com/Toys-R-Us-Rex/Duckify/pull/115)
 
-### [Critiquer une production de manière auto-réflexive]
+### Critiquer une production de manière auto-réflexive
 
 J'ai su recevoir une critique et j'ai jugé ma visualisation peu structuré pour une exploitation à grande echelle donc j'adapte la visualisation des générations de canard [viz](https://toys-r-us-rex.github.io/Duckify/genai/historique_visualisation.pdf)
 
