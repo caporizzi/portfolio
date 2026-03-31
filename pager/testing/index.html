@@ -919,7 +919,7 @@
 <h1 id="competences">Compétences</h1>
 <h2 id="computer-science-engineering">Computer Science Engineering</h2>
 <h3 id="analyser-un-probleme">Analyser un problème</h3>
-<p>J’ai analysé les approches de génération de textures 3D à partir de modèles génératifs (text2texture vs image2texture) afin d’identifier leurs limites en termes de cohérence visuelle, contrôlabilité et adaptabilité au pipeline de production → <a href="https://toys-r-us-rex.github.io/Duckify/genai/t2t_recherche.pdf">Rapport text2texture</a> et <a href="https://toys-r-us-rex.github.io/Duckify/genai/i2t_recherche.pdf">Rapport image2texture</a></p>
+<p>J’ai analysé les approches de génération de textures 3D → <a href="https://toys-r-us-rex.github.io/Duckify/genai/t2t_recherche.pdf">Rapport text2texture</a> et <a href="https://toys-r-us-rex.github.io/Duckify/genai/i2t_recherche.pdf">Rapport image2texture</a></p>
 <p>J’ai analysé les contraintes liées à l’utilisation de modèles de diffusion (coût GPU), impactant directement la scalabilité du système → <a href="https://toys-r-us-rex.github.io/Duckify/genai/computation.pdf">Rapport analyse</a></p>
 <p>J'ai analysé les limites de la méthode image2texture →  <a href="https://toys-r-us-rex.github.io/Duckify/genai/i2t_review.pdf">Rapport Analyse</a></p>
 <h3 id="concevoir-une-solution-theorique-modelisee">Concevoir une solution théorique modélisée</h3>
@@ -930,24 +930,13 @@
 <p>J'ai implementé la génération de mesh texturé en vue d'un finetuning <a href="https://github.com/Toys-R-Us-Rex/Hunyuan">Tencent/hunyuan3d-2</a></p>
 <p>J'ai implementé un modèle de diffusion on premise pour tester les limites de image2texture <a href="https://github.com/Toys-R-Us-Rex/Flux_Image_generation">Flux Kontext</a></p>
 <h3 id="evaluer-un-systeme-informatique">Evaluer un système informatique</h3>
-<p>Situation: Difficulté à évaluer objectivement les générations.</p>
-<p>Action: Mise en place d’une évaluation humaine (qualité, contraintes, dessinabilité) et automatisée (similarité, esthétisme, validation).</p>
-<p>Résultat: Plus de 200 générations évaluées de manière structurée.</p>
-<p><a href="https://hessoit-my.sharepoint.com/:x:/g/personal/marco_caporizz_hes-so_ch/IQAMxPcL6RZaS6prJS5g077yASUoKq_Tkrwxr3mG06NbAR0?e=TwsbaX">Vue d'ensemble</a></p>
 <p>J’ai évalué plus de 200 générations afin d’identifier les paramètres optimaux et les limites du modèle </p>
+<p>J'ai évalué les générations de canard avec mon benchmark de manière automatisé <a href="https://hessoit-my.sharepoint.com/:x:/g/personal/marco_caporizz_hes-so_ch/IQDWPEmH0yzCQI3Da44FXxuGAYJ4Un1OGiUJSheHkWJhVRk?e=k7HpTb&amp;nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0">Excel Export</a> </p>
 <h2 id="data-engineering">Data Engineering</h2>
 <h3 id="valoriser-des-ensembles-de-donnees-heterogenes-et-multimodales">Valoriser des ensembles de données hétérogènes et multimodales</h3>
 <p>J'ai valorisé mes données de canard en visualisant le résultat du mesh texturé sous plusieurs vues en vue de l'évaluation automatisée <a href="https://github.com/Toys-R-Us-Rex/MV-Adapter/blob/main/scripts/benchmark/render_rw.py">Fonction Render</a></p>
-<p>J'ai valorisé mes données de canard en créant un leaderboard de beauté basé sur les évaluations du benchmark <a href="https://github.com/Toys-R-Us-Rex/MV-Adapter/blob/main/scripts/benchmark/rank_rw.py">Fonction Rw</a></p>
+<p>J'ai valorisé mes données de canard en créant un leaderboard de beauté basé sur les évaluations du benchmark <a href="https://github.com/Toys-R-Us-Rex/MV-Adapter/blob/main/scripts/benchmark/rank_rw.py">Fonction Ranking</a></p>
 <h3 id="orchestrer-un-processus-et-une-infrastructure-de-traitement-de-donnees">Orchestrer un processus et une infrastructure de traitement de données</h3>
-<p>Situation: Limitation GPU (&lt;16GB VRAM) pour les modèles de diffusion.</p>
-<p>Action: Analyse des solutions, demande validée pour une infrastructure plus performante.</p>
-<p>Résultat: Accès à des ressources adaptées et amélioration des performances.</p>
-<p><a href="https://github.com/caporizzi/portfolio/blob/main/Desktop/portfolio/papers/Calcul_AWS.pdf">Infrastructure</a></p>
-<p>Situation: Besoin de standardiser la génération à grande échelle.</p>
-<p>Action: Calibration des hyperparamètres et évaluation de leur impact.</p>
-<p>Résultat: Identification des paramètres optimaux.</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1YWFxIgh-5cxQ3ukn9E-Lol9VvpamSTk78wUWdIhKVwA/edit?usp=sharing">Phase de calibrage</a></p>
 <h3 id="appliquer-les-competences-de-lingenierie-en-informatique-au-domaine-des-donnees">Appliquer les compétences de l’ingénierie en informatique au domaine des données</h3>
 <p>J'ai généré des scripts SLURM afin de générer des textures pendant la nuit <a href="https://github.com/Toys-R-Us-Rex/Duckify/blob/main/genai/run.slurm">Script SLURM basique</a> </p>
 <h2 id="professionalism">Professionalism</h2>
@@ -964,7 +953,8 @@
 <p>J'ai argumenté l'adoption de la méthode image2texture et le rejet de text2texture en <a href="https://toys-r-us-rex.github.io/Duckify/genai/genAI_t2t_vs_i2t.pdf">rapport</a> et lors du weekly meeting 4 pour atteindre la milestone <a href="https://toys-r-us-rex.github.io/Duckify/presentations/20260313_duckify_meeting_week_4.pdf">slide21</a> </p>
 <p>J'ai communiqué mes choix pour l'intégration du benchmark ( scripts ) et aidé mon camarade qui a intégré dans la pipeline <a href="https://github.com/Toys-R-Us-Rex/Duckify/pull/115">Benchmark Live</a></p>
 <h3 id="critiquer-une-production-de-maniere-auto-reflexive">[Critiquer une production de manière auto-réflexive]</h3>
-<p>J'ai su recevoir une critique et j'ai jugé ma visualisation peu structuré pour une exploitation à grande echelle: j'adapte la visualisation des générations de canard <a href="https://toys-r-us-rex.github.io/Duckify/genai/historique_visualisation.pdf">viz</a></p>
+<p>J'ai su recevoir une critique et j'ai jugé ma visualisation peu structuré pour une exploitation à grande echelle donc j'adapte la visualisation des générations de canard <a href="https://toys-r-us-rex.github.io/Duckify/genai/historique_visualisation.pdf">viz</a></p>
+<p>J'ai critiqué ma propre production de prompt que j'ai jugé insuffisante et j'ai fait venir une personne d'un groupe externe pour faire du prompt engineering <a href="https://toys-r-us-rex.github.io/Duckify/genai/prompt_generation_analysis.pdf">rapport de l'externe</a></p>
 
 
 
