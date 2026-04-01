@@ -81,3 +81,5 @@ J'ai communiqué mes choix pour l'intégration du benchmark ( scripts ) et aidé
 J'ai su recevoir une critique et j'ai jugé ma visualisation peu structuré pour une exploitation à grande echelle donc j'adapte la visualisation des générations de canard [viz](https://toys-r-us-rex.github.io/Duckify/genai/historique_visualisation.pdf)
 
 J'ai critiqué ma propre production de prompt que j'ai jugé insuffisante et j'ai fait venir une personne d'un groupe externe pour faire du prompt engineering [rapport de l'externe](https://toys-r-us-rex.github.io/Duckify/genai/prompt_generation_analysis.pdf) 
+
+### [Vue d'ensemble docs](https://toys-r-us-rex.github.io/Duckify/)
