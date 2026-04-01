@@ -30,6 +30,8 @@ J'ai implementé un modèle de diffusion on premise pour tester les limites de i
 
 J'ai évalué les générations de canard avec mon benchmark de manière automatisé [Excel Export](https://hessoit-my.sharepoint.com/:x:/g/personal/marco_caporizz_hes-so_ch/IQDWPEmH0yzCQI3Da44FXxuGAYJ4Un1OGiUJSheHkWJhVRk?e=k7HpTb&nav=MTVfezAwMDAwMDAwLTAwMDEtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMH0) [pic](https://github.com/caporizzi/portfolio/blob/main/Desktop/portfolio/canard.JPG)
 
+J'ai évalué les méthodes image2texture et text2texture en vue d'une prise de décision [Rapport Comparatif](https://toys-r-us-rex.github.io/Duckify/genai/genAI_t2t_vs_i2t.pdf)
+
 ## Data Engineering
 
 ### Valoriser des ensembles de données hétérogènes et multimodales
